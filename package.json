@@ -1,0 +1,40 @@
+{
+  "name": "foncia-api",
+  "version": "1.0.0",
+  "description": "foncia-api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/server",
+    "test": "nodemon --exec 'mocha -R min' NODE_ENV=test mocha 'test/**/*.test.js' --timout=10000"
+  },
+  "dependencies": {
+    "bluebird": "~3.5.0",
+    "body-parser": "~1.18.2",
+    "config": "~1.28.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "^2.6.6",
+    "errorhandler": "1.5.0",
+    "express": "^4.16.0",
+    "express-jwt": "^5.3.1",
+    "mongoose": "^5.4.22",
+    "morgan-body": "~2.4.0",
+    "nodemon": "^1.18.10",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "~4.0.2",
+    "mocha": "^3.4.2",
+    "supertest": "~3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dethsi/foncia-api.git"
+  },
+  "author": "Sidet LY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dethsi/foncia-api/issues"
+  },
+  "homepage": "https://github.com/dethsi/foncia-api#readme"
+}
